@@ -1,0 +1,9 @@
+import os
+from init_env import init_environment
+
+env = init_environment('root')
+env['ENV']['LD_LIBRARY_PATH'] = os.environ['LD_LIBRARY_PATH']
+dict = env.ROOTDictionary(['Fila.h'])
+src  = [ 'Fila.cxx' ]
+
+env.SharedLibrary(target = 'MyLib', source = src + dict)

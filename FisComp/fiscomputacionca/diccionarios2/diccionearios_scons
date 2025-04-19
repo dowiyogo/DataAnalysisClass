@@ -1,0 +1,7 @@
+scons
+
+https://github.com/usm-data-analysis/Build-System
+
+en el bashrc export PYTHONPATH=$PYTHONPATH:$HOME/build_system
+donde esta instalado root export ROOTSYS=/home/pancho/root
+
