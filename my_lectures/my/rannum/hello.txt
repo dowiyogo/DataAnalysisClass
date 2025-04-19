@@ -1,0 +1,5 @@
+void hello() 
+{cout << " hello " << " \n ";
+cout<<"I have understood this !"<<"\n";
+}
+
